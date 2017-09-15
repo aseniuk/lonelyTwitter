@@ -1,5 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -11,6 +12,7 @@ import java.util.Date;
 public abstract class Mood {
     private String message;
     private Date date;
+
 
     public Mood(String message){
         this.message = message;
