@@ -12,6 +12,7 @@ import java.util.Date;
 public abstract class Mood {
     private String message;
     private Date date;
+    private String mood;
 
 
     public Mood(String message){
@@ -49,6 +50,9 @@ public abstract class Mood {
 
     public abstract Boolean isHappy();
 
+    public String getMood() {
+        return mood;
+    }
 }
 
 
